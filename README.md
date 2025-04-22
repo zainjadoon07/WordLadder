@@ -1,8 +1,8 @@
-Word Ladder Adventure Game
+# Word Ladder Adventure Game
 🎮 Overview
 The Word Ladder Adventure Game is a challenging and engaging puzzle game where players transform one word into another by changing one letter at a time, with each intermediate word being valid according to a dictionary. The game offers multiple difficulty levels, various modes, and the option to receive help through advanced search algorithms. Players can aim to solve the puzzle in the fewest moves possible to achieve the highest score.
 
-🧩 Game Features
+# 🧩 Game Features
 Single-Player Modes
 Beginner Mode: 3-letter words.
 
