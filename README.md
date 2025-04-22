@@ -19,7 +19,7 @@ Two players can compete against each other, solving the same word ladder.
 
 The player who reaches the target word in fewer moves wins.
 
-AI Assistance
+# AI Assistance
 Players can request hints using one of the following algorithms:
 
 Breadth-First Search (BFS)
@@ -33,7 +33,7 @@ The player’s score is based on the number of moves taken. Fewer moves result i
 
 The maximum score is 100, with 5 points deducted for each move.
 
-🧑‍💻 Implementation Details
+# 🧑‍💻 Implementation Details
 Dictionary Loading
 The game loads a dictionary from a file named dictionary.txt.
 
@@ -67,7 +67,7 @@ Combines the path cost (g(n)) with an estimate of the remaining cost (h(n)).
 
 The heuristic is the number of differing letters between the current word and the target word.
 
-Game Modes
+# Game Modes
 Single-Player Modes:
 
 Players solve the word ladder alone and can request AI assistance through BFS, UCS, or A*.
@@ -89,7 +89,7 @@ The maximum score is 100.
 
 5 points are deducted for each move taken.
 
-🛠️ How We Built It
+# 🛠️ How We Built It
 Dictionary and Graph Structure
 Words are treated as nodes in a graph, and valid transformations between words are the edges connecting these nodes.
 
@@ -115,7 +115,7 @@ dictionary.txt: A text file containing a list of valid words (one per line).
 
 No external libraries are required (pure Python).
 
-📂 Project Structure
+# 📂 Project Structure
 bash
 Copy
 Edit
